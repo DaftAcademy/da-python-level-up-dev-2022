@@ -32,7 +32,7 @@ postgres → postgresql
 
 
 ## Restore db
-heroku pg:backups:restore 'https://github.com/mateusz94/da-2021-example/raw/main/dump/northwind.sql.dump'  postgresql-silhouetted-07931 --app da-2021-example --confirm da-2021-example
+heroku pg:backups:restore 'https://github.com/DaftAcademy-Python-LevelUP-Dev-2022/da-python-level-up-dev-2022/blob/main/4_T_jak_Tabela/dumps/northwind.sql.dump'  postgresql-silhouetted-07931 --app da-2021-example --confirm da-2021-example
 
 
 ## Generowanie modeli
